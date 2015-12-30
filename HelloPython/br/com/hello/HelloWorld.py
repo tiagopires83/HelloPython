@@ -12,7 +12,11 @@ import platform
 def soma(a,b):
     print('A soma dos números passados é: ', a+b)
 
+
+def returnTamanhoString(x):
     
+    print("Tamanho da String: ", len(x))
+        
     
 def printMap():
     lista = [1,2,3,4,5,6,7,8,9,10]
