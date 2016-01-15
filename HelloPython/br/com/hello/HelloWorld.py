@@ -13,6 +13,9 @@ def soma(a,b):
     print('A soma dos números passados é: ', a+b)
 
 
+'''
+# Retorna tamanho da string passada.
+'''
 def returnTamanhoString(x):
     
     print("Tamanho da String: ", len(x))
