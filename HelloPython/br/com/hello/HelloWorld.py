@@ -7,7 +7,7 @@ Created on 29 de dez de 2015
 
 import platform
 '''
-# Função de soma...
+# Função de soma...código alterado 15/01/16
 '''
 def soma(a,b):
     print('A soma dos números passados é: ', a+b)
