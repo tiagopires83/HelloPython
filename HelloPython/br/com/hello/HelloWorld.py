@@ -75,7 +75,10 @@ def verificarNumero(num):
     else:
         print('O número passado é ímpar!')
         
-        
+
+def returnAndCompareItensIguaisDeListas(lista1, lista2):
+    
+    print('Os ítens em comum as duas listas são:', list(set(lista1).difference(lista2)))        
     
 
 if __name__ == '__main__':
@@ -91,9 +94,13 @@ if __name__ == '__main__':
     printNumerosImpares(n)
     verificarNumero(n)
     
+    lista1 = [1,2,3,4,5]
+    lista2 = [2,3]
+
     aba = 'abacate'
     print(aba.split('a', 3))
     
     returnTipo([1,2,3])
     printPCInformations()
+    returnAndCompareItensIguaisDeListas(lista1, lista2)
     
